@@ -1,0 +1,44 @@
+
+body {
+
+height: 100vh;
+width: 100%;
+margin: 20px
+
+}
+
+.all {
+display: flex;
+flex-direction: column;
+width: 300px;
+
+
+}
+
+h1 { 
+    justify-content: center;
+    text-align:  center;
+    background-color: #b2b9b7;
+    outline-style: solid;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+
+ margin: 0px;
+ padding: 0px;
+}
+
+li {
+    flex: 1 1 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 165, 2);
+    outline-style: solid;
+    display: flex;
+
+}
