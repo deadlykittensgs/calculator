@@ -3,14 +3,22 @@ body {
 
 height: 100vh;
 width: 100%;
-margin: 20px
+margin: 20px;
+display: flex;
+justify-content: center;
+margin: 0px;
+background-color: rgb(83, 79, 112);
 
 }
+
+
+
 
 .all {
 display: flex;
 flex-direction: column;
 width: 300px;
+justify-content: center;
 
 
 }
@@ -21,6 +29,8 @@ h1 {
     background-color: #b2b9b7;
     outline-style: solid;
     margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -37,7 +47,7 @@ li {
     height: 60px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 165, 2);
+    background-color: rgb(137, 120, 201);
     outline-style: solid;
     display: flex;
 
