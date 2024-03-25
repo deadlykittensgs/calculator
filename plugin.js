@@ -2,7 +2,8 @@
 let a
 let b
 let c
-let display
+let display = 0 + c
+
 
 var one = document.getElementById("one")
 var two = document.getElementById("two")
@@ -22,7 +23,7 @@ var clear = document.getElementById("clear")
 var equals = document.getElementById("equals")
 
 
-one.addEventListener('click', e => { console.log(1) } )
+one.addEventListener('click', function e (){ console.log(1) } )
 
 
 
